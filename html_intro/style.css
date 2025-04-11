@@ -1,0 +1,27 @@
+.name, .role {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.role {
+  padding-left: 20px;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 30% auto;
+  border: 1px solid;
+}
+
+.info > div {
+  border: 1px solid;
+  padding-left: 10px;
+}
+
+.score {
+  margin-top: 0;
+}
+
+.education {
+  margin-bottom: 0;
+}

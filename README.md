@@ -22,12 +22,15 @@ The first week focuses mainly on learning fundamentals to use in projects, learn
   Introduction to Streamlit, an open source python framework for developing fast web-applications. Constructed a [Login Page](https://github.com/Haniel-Samson/internship-sem-iv/blob/main/Week-1/Streamlit/Login.py) via session_states and a [Chatbot](https://github.com/Haniel-Samson/internship-sem-iv/blob/main/Week-1/Streamlit/Chatbot.py) using AIMLAPI. Obtaining of free aimlapi key to set up functional chatbot.
 
 **Login Page:**
-<div float="left" style="display:inline-block;">
-  <img src = "Week-1/Screenshots/Login-page.png" alt = "Screenshot of a login page"></img>
-  <img src = "Week-1/Screenshots/Sign-Up-Modal.png" alt = "Screenshot of the Sign Up Modal"></img>
-  <img src = "Week-1/Screenshots/Successful-Login-Example.png" alt = "Example image of a successful login"></img>
-</div>
 
+<table>
+  <tr>
+    <td><img src="Week-1/Screenshots/Login-page.png" alt = "Screenshot of a login page"></td>
+    <td><img src="Week-1/Screenshots/Sign-Up-Modal.png" alt = "Screenshot of the Sign Up Modal"></td>
+    <td><img src="Week-1/Screenshots/Successful-Login-Example.png" alt = "Example image of a successful login"></td>
+  </tr>
+ </table>
+ 
 **Chatbot:**
 <div>
   <img src = "Week-1/Screenshots/Chatbot.png" alt = "Example of a chatbot using streamlit"></img>

@@ -6,7 +6,7 @@ A compilation of my fourth semester internship programs/projects <br>
 <img src = "https://sensen.ai/wp-content/uploads/2023/08/SenSen-logo-2023-1000-px-w.png" alt = "Sensen AI logo" style="margin-top:80px;width:600;height:400"></img>
 
 **Start date:** 07-Apr-2025 <br>
-**Locaton:** Hyderabad
+**Location:** Hyderabad
 
 ## Week 1:
 **Duration :** 07/04/2025 - 11/04/2025 <br>
@@ -45,3 +45,27 @@ The first week focuses mainly on learning fundamentals to use in projects, learn
   
   ### Day 5: 
   Introduction to github and its various components. Uploading of all associated project files to github. Research on opencv and associated packages for an upcoming miniproject.
+
+## Week 2:
+**Duration :** 14/04/2025 - 18/04/2025 <br>
+The second week introduces us to OpenCV in Python and working with OpenCV to create a ROI. <br>
+<br>
+Packages Used: <br>
+opencv: For image display and to act as a canvas to select ROI. <br>
+numpy: To store the coordinates of points selected in a numpy array. <br>
+<br>
+Functions Used: <br>
+updatepoints(x,y): To update coordinates of points to enable drag functionality of the whole region that is selected. <br>
+updatepoint(x,y): To update coordinate of a single point to enable drag functionality of a single point selected. <br>
+movepoint(event,x,y,...): To ensure that a point is draggable when clicked within a specified region of the point and stops being draggable when the mouse button is released. Also ensures right clicking to delete a point, middle mouse click to add a point with respect to the first point and double left click to clear all points. <br>
+draw_image(): To plot image and its associated points. <br>
+dispCoords(): To store the coordinates of the points into a text file. <br>
+ROIView(point_coords): To open a new window for the specified ROI. <br>
+plotpoints(event,x,y,...): To ensure that points are plotted based on mouse left click and lines are connected when two or more points are present on the screen. Shades the selected region when the first point is clicked again and opens the ROI in a new window by ccalling the ROIView function. <br>
+<br>
+Purpose: <br>
+ROI or Region of Interest are specific portions of an image that are selected, usually for processing images by ML algorithms. Here we implement the features to add points, remove points based on GUI input or to select points entered in the CLI. For GUI input, the points are enclosed by selecting the first point which closes the polygon and shades the selected region. <br>
+
+## Week 3:
+**Duration :** 21/04/2025 - 25/04/2025 <br>
+Visualization of datasets in javascript and HTML. <br>

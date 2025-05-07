@@ -50,22 +50,33 @@ The first week focuses mainly on learning fundamentals to use in projects, learn
 **Duration :** 14/04/2025 - 18/04/2025 <br>
 The second week introduces us to OpenCV in Python and working with OpenCV to create a ROI. <br>
 <br>
-Packages Used: <br>
-opencv: For image display and to act as a canvas to select ROI. <br>
-numpy: To store the coordinates of points selected in a numpy array. <br>
+#### Packages Used: <br>
+**opencv:** For image display and to act as a canvas to select ROI. <br>
+**numpy:** To store the coordinates of points selected in a numpy array. <br>
 <br>
-Functions Used: <br>
-updatepoints(x,y): To update coordinates of points to enable drag functionality of the whole region that is selected. <br>
-updatepoint(x,y): To update coordinate of a single point to enable drag functionality of a single point selected. <br>
-movepoint(event,x,y,...): To ensure that a point is draggable when clicked within a specified region of the point and stops being draggable when the mouse button is released. Also ensures right clicking to delete a point, middle mouse click to add a point with respect to the first point and double left click to clear all points. <br>
-draw_image(): To plot image and its associated points. <br>
-dispCoords(): To store the coordinates of the points into a text file. <br>
-ROIView(point_coords): To open a new window for the specified ROI. <br>
-plotpoints(event,x,y,...): To ensure that points are plotted based on mouse left click and lines are connected when two or more points are present on the screen. Shades the selected region when the first point is clicked again and opens the ROI in a new window by ccalling the ROIView function. <br>
+#### Functions Used: <br>
+**updatepoints(x,y):** To update coordinates of points to enable drag functionality of the whole region that is selected. <br> <br>
+**updatepoint(x,y):** To update coordinate of a single point to enable drag functionality of a single point selected. <br> <br>
+**movepoint(event,x,y,...):** To ensure that a point is draggable when clicked within a specified region of the point and stops being draggable when the mouse button is released. Also ensures right clicking to delete a point, middle mouse click to add a point with respect to the first point and double left click to clear all points. <br> <br>
+**draw_image():** To plot image and its associated points. <br> <br>
+**dispCoords():** To store the coordinates of the points into a text file. <br> <br>
+**ROIView(point_coords):** To open a new window for the specified ROI. <br> <br>
+**plotpoints(event,x,y,...):** To ensure that points are plotted based on mouse left click and lines are connected when two or more points are present on the screen. Shades the selected region when the first point is clicked again and opens the ROI in a new window by ccalling the ROIView function. <br>
 <br>
-Purpose: <br>
+#### Purpose: <br>
 ROI or Region of Interest are specific portions of an image that are selected, usually for processing images by ML algorithms. Here we implement the features to add points, remove points based on GUI input or to select points entered in the CLI. For GUI input, the points are enclosed by selecting the first point which closes the polygon and shades the selected region. <br>
+<br>
+#### Screenshots: <br>
+<br>
 
 ## Week 3:
 **Duration :** 21/04/2025 - 25/04/2025 <br>
-Visualization of datasets in javascript and HTML. <br>
+The third week is where we learnt to visualize datasets in javascript and HTML. <br>
+<br>
+#### Tools Used: <br>
+**HTML:** For basic webpage layout <br>
+**CSS:** For basic webpage design <br>
+**JS:** For datasets to be represented visually <br>
+<br>
+#### Purpose: <br>
+Getting familiar with using datasets in the frontend, although practically better to implement backend, helped in gaining familarity with JSON files and working with JSON files in frontend, as well as using API requests in the frontend.
